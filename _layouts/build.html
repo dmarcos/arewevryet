@@ -1,14 +1,16 @@
 <!DOCTYPE HTML>
+{% assign os = page.os %}
+{% assign browser = page.browser %}
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="1;url={{ site.share }}">
+    <meta http-equiv="refresh" content="1;url={{ site.builds.[browser][os] }}">
     <script language="javascript">
-        window.location.href = "{{ site.url }}"
+        window.location.href = "{{ site.builds.[browser][os] }}"
     </script>
     <title>Page Redirection</title>
 </head>
 <body>
-If you are not redirected automatically, please click the link to continue to the <a href='{{ site.url }}'>VR Enabled Firefox - OSX</a>
+If you are not redirected automatically, please click the link to continue to the <a href='{{ site.builds.[browser][os] }}'>VR Enabled Firefox - OSX</a>
 </body>
 </html>

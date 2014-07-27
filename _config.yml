@@ -11,5 +11,5 @@ builds:
     win: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.win64-x86_64.zip
     osx: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
   chrome:
-    win: https://drive.google.com/uc?export=download&confirm=ublC&id=0BzudLt22BqGRMnhZOE04TjdZWlk
+    win: https://drive.google.com/uc?export=download&confirm=smDQ&id=0BzudLt22BqGRck5UWjRiQy01VU0
     osx: https://drive.google.com/uc?export=download&confirm=gAnI&id=0BzudLt22BqGRMnhZOE04TjdZWlk
