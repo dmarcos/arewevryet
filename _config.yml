@@ -5,3 +5,12 @@ author_email: diego.marcos@gmail.com
 exclude: ["README.md"]
 url: http://www.arewevryet.com/
 baseurl:
+builds:
+  firefox:
+    win:
+    osx: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
+  chrome:
+    win:
+    osx:
+
+
