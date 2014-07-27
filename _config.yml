@@ -7,10 +7,10 @@ url: http://www.arewevryet.com/
 baseurl:
 builds:
   firefox:
-    win:
-    osx: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
+    win: pepe
+    osx: pepe
   chrome:
-    win:
-    osx:
+    win: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
+    osx: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
 
 
