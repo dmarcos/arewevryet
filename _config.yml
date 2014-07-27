@@ -1,5 +1,6 @@
 title:            Are We VR yet?
 description:      "Follow the progress of VR in the web"
+creator: Diego Marcos
 author: Diego Marcos
 author_email: diego.marcos@gmail.com
 exclude: ["README.md"]
@@ -7,10 +8,9 @@ url: http://www.arewevryet.com/
 baseurl:
 builds:
   firefox:
-    win: pepe
-    osx: pepe
+    win: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
+    osx: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
   chrome:
     win: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
     osx: http://people.mozilla.com/~vladimir/vr/firefox-33.0a1.en-US.mac.dmg
-
 
